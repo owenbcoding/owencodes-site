@@ -13,11 +13,14 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        
+        <h1 className="text-6xl font-bold">
+          Owencodes
+        </h1>
+        <p className="text-4xl mt-10">Hi I'm Owen I am a Full Stack Developer!</p>
       </main>
 
-      <footer className={styles.footer}>
-        
+      <footer className="">
+
       </footer>
     </div>
   )

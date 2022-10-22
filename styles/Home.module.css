@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -61,8 +61,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: 'Poppins', sans-serif;
 }
 
 .grid {
@@ -118,10 +117,8 @@
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
-    border-color: #222;
   }
   .code {
-    background: #111;
   }
   .logo img {
     filter: invert(1);
